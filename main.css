@@ -1,0 +1,19 @@
+body {
+    font-family: emoji;
+}
+/* ul {
+    font-family: 
+} */
+
+.finny-header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 2rem;
+    color: red;
+}
+#date {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 50px;
+}
