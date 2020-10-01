@@ -1,19 +1,42 @@
-body {
-    font-family: emoji;
-}
-/* ul {
-    font-family: 
-} */
 
-.finny-header {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    line-height: 2rem;
-    color: red;
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 20;  
+  padding: 10px;
+  
 }
-#date {
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    padding: 50px;
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 100px;
+    width: 20%;
+}
+.item3 {
+    grid-column-start:2 ;
+    grid-column-end: 50;
+    font-size: 20mm;
+    width: 80%;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 50;
+    padding: 20px;
+    width: 100%;
+}
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+    
+    font-style: 30px;
+}
+.use {
+    font-style: bold;
 }

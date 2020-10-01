@@ -7,18 +7,21 @@ selectElement.innerHTML = `date : ${format}`;
 
 function userName(){
     let username = document.getElementById('name');
+    let username1 = document.getElementById('name1');
     var name = prompt('enter name', username.innerText);
-    console.log('name is ',name);
     username.innerHTML = name;
-    let coverName = document.getElementById('cover');
-       coverName.innerHTML = name;
+    username1.innerText = name
 }
 function lastName(){
     let lastname = document.getElementById('last');
+    let lastname1 = document.getElementById('name2');
     var last = prompt('enter last name',lastname.innerText);
-    console.log('lastname is',last);
     lastname.innerHTML = last;
+    lastname1.innerText = last
 }
 
+let tpt = document.getElementById('txt');
+tpt.innerHTML = txt   
+tpt.innerText = "hello text me";
 //cover...
 
